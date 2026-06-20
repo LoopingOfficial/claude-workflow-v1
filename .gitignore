@@ -1,0 +1,20 @@
+# Dépôt de référence du workflow — on ne versionne pas les sorties d'exécution.
+
+# Fichiers générés par les commandes dans les projets consommateurs
+specs/audit.md
+specs/projet.md
+specs/architecture.md
+specs/test-report.md
+specs/review.md
+
+# Archives de distribution
+*.zip
+*.tar.gz
+
+# Artefacts système / éditeurs
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
